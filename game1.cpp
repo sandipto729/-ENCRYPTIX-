@@ -6,7 +6,8 @@ int main(){
     cout<<"Enter the maximum range of the number : ";
     cin>>n;
     const int number=rand()%n+1;
-    cout<<"Your game starts now : ";
+    cout<<"Your game starts now : \n";
+    cout<<"Enter Number : ";
     int guess;
     do
     {
