@@ -1,5 +1,6 @@
 #include<iostream>
 #include<string.h>
+#include<math.h>
 using namespace std;
 int main(){
     cout<<"! Welcome to Calculaotor !"<<endl;
@@ -35,7 +36,7 @@ int main(){
             cout<<"Remainder : "<<num1%num2<<endl;
             break;
         case 6:
-            cout<<"Power : "<<num1*num1<<endl;
+            cout<<"Power : "<<pow(num1,num2)<<endl;
             break;
     }
     return 0;
